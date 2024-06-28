@@ -12,7 +12,7 @@ Welcome to the Basic Landing Page project! This is a simple example of a landing
 - CSS
 
 ## 🚀 Setup
-1. Clone the repository.
+1. Clone the repository  https://github.com/Elangovan0101/Landing-page.git
 2. Open `index.html` in your browser.
 
 ## 📄 License
