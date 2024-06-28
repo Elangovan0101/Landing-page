@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Wanderlust Adventures</h1>
+            <p>Explore the world with us!</p>
+            <a href="#destinations" class="btn">Learn More</a>
+        </div>
+    </header>
+    <section id="destinations">
+        <div class="container">
+            <h2>Top Destinations</h2>
+            <div class="destination">
+                <img src="paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The city of lights and love.</p>
+            </div>
+            <div class="destination">
+                <img src="tokyo.jpg" alt="Tokyo">
+                <h3>Tokyo</h3>
+                <p>A bustling metropolis with a rich culture.</p>
+            </div>
+            <div class="destination">
+                <img src="newyork.jpg" alt="New York">
+                <h3>New York</h3>
+                <p>The city that never sleeps.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Wanderlust Adventures is dedicated to providing you with unforgettable travel experiences. Our team of experienced travel experts will help you discover the best destinations around the world.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Wanderlust Adventures. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.btn').addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        });
+    </script>
+</body>
+</html>
